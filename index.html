@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./util.css">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+    <div class="container first">
+        <h1 class="header">Personal Details</h1>
+    <div class="block">
+        <label for="fname" class="left mt">First Name<span>*</span></label>
+        <label for="lname" class="right mt">Last Name<span>*</span></label>
+    </div>
+    <div class="block">
+        <input type="text" name="fname" class="box ml mtop" placeholder="Placeholder">
+        <input type="text" name="lname" class="box pl mtop" placeholder="Placeholder">
+    </div>
+    <div class="block">
+        <label for="email" class="left mt">Email<span>*</span></label>
+        <label for="number" class="right mt">Mobile Number<span>*</span></label>
+    </div>
+    <div class="block">
+        <input type="email" name="email" class="box ml mtop" placeholder="Placeholder">
+        <input type="tel" name="number" class="box pl mtop" placeholder="Placeholder">
+    </div>
+    </div>
+    <div class="container">
+        <h1 class="header">Academic Details</h1>
+        <div>
+            <label for="college" class="mt">College Name<span>*</span></label>
+            <input type="text" name="college" class="box" placeholder="Placeholder">
+        </div>
+        <div class="mtop">
+            <label for="dept">Department Name<span>*</span></label>
+            <input type="text" name="dept" class="box" placeholder="Placeholder">
+        </div>
+        <div class="mtop">
+            <label for="roll">Roll Number</label>
+            <input type="text" name="roll" class="box" placeholder="Placeholder">
+        </div>
+        <div class="mtop">
+            <label for="graduate">Graduating Year</label>
+            <input type="text" name="graduate" class="box" placeholder="Placeholder">
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="header">Other Details</h1>
+        <div class="row">
+                <label for="area" class="bot">Area of interest<span>*</span></label>
+                <input type="text" name="interest" id="interest" class="box" placeholder="Placeholder">
+                <label for="hobb" class="hobb bot">Hobby</label>
+                <input type="text" name="hob" id="hob" class="box" placeholder="Placeholder">
+        </div>
+        <div class="row">
+                <label for="graduate" class="bot">Graduating Year</label>
+                <input type="text" name="graduate" id="graduate" class="box" placeholder="Placeholder">
+                <label for="graduate" class= "grad bot">Graduating Year</label>
+                <input type="text" name="graduate" id="graduate" class="box" placeholder="Placeholder">
+        </div>
+        </div>
+    </form>
+    <div class="end">
+        <a href="#" class="edit">Edit</a>
+        <a href="#" class="save">Save</a>
+    </div>
+</body>
+</html>
